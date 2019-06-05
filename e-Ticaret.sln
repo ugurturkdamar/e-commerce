@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "e-Ticaret", "e-Ticaret\e-Ticaret.csproj", "{83FCD15F-E0CB-42B8-9DE9-8F7D5225804B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "e-Ticaret.BusinessLayer", "e-Ticaret.BusinessLayer\e-Ticaret.BusinessLayer.csproj", "{0E8901EC-2E7B-4BED-9A43-8156B3CEE952}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "e-Ticaret.DataAccessLayer", "e-Ticaret.DataAccessLayer\e-Ticaret.DataAccessLayer.csproj", "{FFBCA646-F459-4A28-8218-1CE05546B356}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "e-Ticaret.Entities", "e-Ticaret.Entities\e-Ticaret.Entities.csproj", "{B0592024-21B5-4901-9555-8AEB2771BAAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eTicaret.Common", "eTicaret.Common\eTicaret.Common.csproj", "{696F334A-6600-401C-949E-30343C1F429D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "e-Ticaret.Core", "e-Ticaret.Core\e-Ticaret.Core.csproj", "{FB763F6A-21CD-4C96-B884-DD42FF52E4BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83FCD15F-E0CB-42B8-9DE9-8F7D5225804B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83FCD15F-E0CB-42B8-9DE9-8F7D5225804B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83FCD15F-E0CB-42B8-9DE9-8F7D5225804B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83FCD15F-E0CB-42B8-9DE9-8F7D5225804B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E8901EC-2E7B-4BED-9A43-8156B3CEE952}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E8901EC-2E7B-4BED-9A43-8156B3CEE952}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E8901EC-2E7B-4BED-9A43-8156B3CEE952}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E8901EC-2E7B-4BED-9A43-8156B3CEE952}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFBCA646-F459-4A28-8218-1CE05546B356}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFBCA646-F459-4A28-8218-1CE05546B356}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFBCA646-F459-4A28-8218-1CE05546B356}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFBCA646-F459-4A28-8218-1CE05546B356}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0592024-21B5-4901-9555-8AEB2771BAAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0592024-21B5-4901-9555-8AEB2771BAAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0592024-21B5-4901-9555-8AEB2771BAAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0592024-21B5-4901-9555-8AEB2771BAAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{696F334A-6600-401C-949E-30343C1F429D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{696F334A-6600-401C-949E-30343C1F429D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{696F334A-6600-401C-949E-30343C1F429D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{696F334A-6600-401C-949E-30343C1F429D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB763F6A-21CD-4C96-B884-DD42FF52E4BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB763F6A-21CD-4C96-B884-DD42FF52E4BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB763F6A-21CD-4C96-B884-DD42FF52E4BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB763F6A-21CD-4C96-B884-DD42FF52E4BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F0DFC9F-7464-47DE-8D59-5501D2B0041F}
+	EndGlobalSection
+EndGlobal

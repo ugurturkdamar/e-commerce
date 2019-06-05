@@ -1,0 +1,36 @@
+﻿@{
+    ViewBag.Title = "Hata Oluştu";
+}
+
+<div class="row">
+    <div class="col-md-8 col-md-offset-2">
+
+        @{
+            Exception ex = null;
+
+            if (TempData["LastError"] != null)
+            {
+                ex = TempData["LastError"] as Exception;
+            }
+        }
+
+        <h1><span class="glyphicon glyphicon-remove"></span> Hata Oluştu</h1>
+        <p>
+            Hata oluştu, lütfen site yöneticisi ile iletişime geçiniz.
+            <br /><br /><br />
+            @if (ex != null)
+            {
+                <strong>Hata Detay : </strong>
+                @ex.Message
+                <br /><br /><br />
+            }
+            <div class="col-md-offset-2 col-md-10">
+                <button type="submit" class="btn btn-primary">
+                    <span class="glyphicon glyphicon-envelope"></span> E-posta Gönder
+                </button>
+                @Html.ActionLink("Back to List", "Index", "Category", null, new { @class = "btn btn-default " })
+            </div>          
+        </p>
+
+    </div>
+</div>

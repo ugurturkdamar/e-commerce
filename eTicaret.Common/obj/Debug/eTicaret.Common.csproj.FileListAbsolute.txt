@@ -1,0 +1,6 @@
+C:\Users\Turkishvein\Desktop\e-Ticaret\eTicaret.Common\bin\Debug\eTicaret.Common.dll
+C:\Users\Turkishvein\Desktop\e-Ticaret\eTicaret.Common\bin\Debug\eTicaret.Common.pdb
+C:\Users\Turkishvein\Desktop\e-Ticaret\eTicaret.Common\obj\Debug\eTicaret.Common.csproj.CoreCompileInputs.cache
+C:\Users\Turkishvein\Desktop\e-Ticaret\eTicaret.Common\obj\Debug\eTicaret.Common.dll
+C:\Users\Turkishvein\Desktop\e-Ticaret\eTicaret.Common\obj\Debug\eTicaret.Common.pdb
+C:\Users\Turkishvein\Desktop\e-Ticaret\eTicaret.Common\obj\Debug\eTicaret.Common.csprojAssemblyReference.cache

@@ -1,0 +1,20 @@
+﻿@using e_Ticaret.Models
+@using e_Ticaret.Entities
+
+
+@{ 
+    List<Kategori> list = CacheHelper.GetCategoriesFromCache();
+}
+
+<p class="lead">Kategoriler</p>
+<div class="list-group">
+    <a href="@Url.Action("Index","Home")" class="list-group-item"><span class="glyphicon glyphicon-arrow-right"></span> Tümü</a>
+
+    @foreach (Kategori cat in list)
+    {
+        <a href="/Home/ByCategory/@cat.ID" title="@cat.Description" class="list-group-item"><span class="glyphicon glyphicon-arrow-right"></span> @cat.Title</a>
+    }
+
+
+
+</div>

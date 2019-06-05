@@ -1,0 +1,70 @@
+﻿@model e_Ticaret.Entities.Urun
+
+@{
+    ViewBag.Title = "Urun Detay";
+}
+
+<div class="row">
+    <div class="col-md-8 col-md-offset-2">
+        <h2>@ViewBag.Title</h2>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-8 col-md-offset-2">
+        <h4>Urun</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Kategori.Title)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Kategori.Title)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Title)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Title)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Text)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Text)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.IsDraft)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.IsDraft)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.LikeCount)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.LikeCount)
+            </dd>
+
+        </dl>
+        <div class="col-md-8 col-md-offset-2">
+            <p>
+                <button type="submit" class="btn btn-info">
+                    <span class="glyphicon glyphicon-plus"></span> Detay
+                </button>
+                <a href="/Urun/Index" class="btn btn-default">
+                    <span class="glyphicon glyphicon-arrow-left"></span> Back To List
+                </a>
+            </p>
+        </div>
+    </div>
+</div>
